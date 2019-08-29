@@ -1,0 +1,52 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-head .navbar-toggler {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.font-change {
+    color: #0c2e60 !important;
+    font-size: 15px;
+}
+
+.ft-change {
+    font-size: 15px;
+    color: #000 !important;
+}
+
+.font-change:hover {
+    color: #ee390f !important;
+}
+
+.btn-get {
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+}
+
+.banner_part {
+    height: 880px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../images/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: 68%;
+    background-position: top right;
+    background-position-x: right;
+    background-position-y: top;
+}
