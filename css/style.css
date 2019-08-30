@@ -74,6 +74,70 @@ html {
     line-height: 26px;
 }
 
+.awesome-text {
+    color: #0c2e60;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.awesome-paragraph {
+    color: #888888;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.single_feature_part {
+    border: 1px solid #f0f4f6;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    padding: 35px 20px;
+}
+
+.ti-color {
+    color: #0c2e60;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.single_feature_icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #f0f4f6;
+    display: table;
+}
+
+.single_feature_part:hover .single_feature_icon {
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 0%, #ee390f 100%);
+}
+
+.single_feature_part:hover {
+    border: 1px solid #ff663b;
+}
+
+.single_feature_part:hover .ti-color {
+    color: #fff;
+}
+
+.feature-text {
+    color: #0c2e60;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.feature-paragraph {
+    color: #7f7f7f;
+    font-size: 15px;
+    line-height: 27px;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {}
