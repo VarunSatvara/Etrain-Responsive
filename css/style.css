@@ -36,7 +36,7 @@ html {
 }
 
 .btn-get {
-    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 0%, #ee390f 100%);
 }
 
 .banner_part {
@@ -49,4 +49,54 @@ html {
     background-position: top right;
     background-position-x: right;
     background-position-y: top;
+}
+
+.get-start {
+    color: #0c2e60 !important;
+    border: 1px solid #0c2e60;
+}
+
+.banner-h5 {
+    color: #556172;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-h1 {
+    color: #0c2e60;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-p {
+    color: #777777;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .banner-h5 {
+        font-size: 14px;
+    }
+    .banner-h1 {
+        font-size: 40px;
+    }
+    .banner-p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .banner-h1 {
+        font-size: 30px;
+    }
+    .banner-p {
+        font-size: 14px;
+    }
 }
