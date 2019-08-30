@@ -186,6 +186,76 @@ html {
     position: relative;
 }
 
+.section_tittle p {
+    color: #556172;
+    text-transform: uppercase;
+    line-height: 11px;
+    margin-bottom: 26px;
+}
+
+.section_tittle h2 {
+    font-size: 42px;
+    color: #0c2e60;
+    line-height: 37px;
+    position: relative;
+}
+
+.section_tittle h2:after {
+    position: absolute;
+    content: "";
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+    height: 2px;
+    background-color: #ff663b;
+}
+
+.btn-web {
+    background-color: #ff663b;
+}
+
+.dollar-text {
+    color: #ff663b;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.devp-text {
+    color: #0c2e60;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.devp-paragraph {
+    color: #888888;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.conduct-paragraph {
+    color: #556172;
+    font-size: 14px;
+}
+
+.conduct-name {
+    color: #0c2e60;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rating-text {
+    color: #888888;
+    font-size: 14px;
+}
+
+.devp-text:hover {
+    color: #ff663b;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {}
@@ -253,5 +323,11 @@ html {
     }
     .member_counter .single_member_counter span {
         font-size: 45px;
+    }
+    .section_tittle h2 {
+        font-size: 32px;
+    }
+    .section_tittle p {
+        font-size: 14px;
     }
 }
