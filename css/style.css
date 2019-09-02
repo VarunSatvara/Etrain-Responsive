@@ -334,6 +334,16 @@ html {
     width: 180px;
 }
 
+.comment-list {
+    color: #8a8a8a;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card:hover .design-card-box {
+    box-shadow: 0px 10px 30px 0px rgba(12, 46, 96, 0.1);
+}
+
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
